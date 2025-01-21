@@ -47,12 +47,12 @@ export default function Page() {
           <p className="text-sm text-gray-500 dark:text-zinc-400">
             Use your email and password to sign in
           </p> */}
-          <img src="../../../켄디 로고.svg" alt="KENDY" className="w-24 h-24" />
+          <img src="/images/logo.svg" alt="KENDY" className="w-24 h-24" />
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
           <SubmitButton isSuccessful={isSuccessful}>로그인</SubmitButton>
           <p className="text-center text-sm text-gray-600 mt-4 dark:text-zinc-400">
-            {"KENDY가 처음이신가요?"}
+            {"KENDY\uAC00 \uCC98\uC74C\uC774\uC2E0\uAC00\uC694?"}
             <Link
               href="/register"
               className="font-semibold text-gray-800 hover:underline dark:text-zinc-200"
