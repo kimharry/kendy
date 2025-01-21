@@ -232,7 +232,7 @@ function PureMultimodalInput({
 
       <Textarea
         ref={textareaRef}
-        placeholder="Send a message..."
+        placeholder="메시지를 입력하세요"
         value={input}
         onChange={handleInput}
         className={cx(

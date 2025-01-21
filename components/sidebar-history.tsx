@@ -239,7 +239,7 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
       <SidebarGroup>
         <SidebarGroupContent>
           <div className="px-2 text-zinc-500 w-full flex flex-row justify-center items-center text-sm gap-2">
-            Your conversations will appear here once you start chatting!
+            채팅 내역이 여기 표시됩니다!
           </div>
         </SidebarGroupContent>
       </SidebarGroup>

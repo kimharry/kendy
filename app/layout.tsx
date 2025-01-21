@@ -7,8 +7,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
-  description: 'Next.js chatbot template using the AI SDK.',
+  title: 'KENDY',
+  description: 'KENDY는 KENTECH 신입생들을 위해 개발된 챗봇입니다. 켄텍에 대해 궁금한 점은 언제든지 물어보세요!',
 };
 
 export const viewport = {
